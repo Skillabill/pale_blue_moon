@@ -39,22 +39,19 @@ p {
     border: none;
 }
 
-.pbm{
+.pbm {
     font-family: 'Special Elite', cursive;
-    color: #3993E5;  
+    color: #3993E5;
 }
 
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
-    margin-left: 10%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 80%;
+    width: 100%;
 }
 
 .main-pic-bg {
-    background-color: #34495E;
+    background-color: #000;
 }
 
 /*-------------Live Page --------------*/
@@ -102,9 +99,10 @@ table {
     padding: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
-    border:2px solid #fff;
-    
+    border: 2px solid #fff;
+
 }
+
 /*------------- SONGS -----------------------*/
 
 .songs {
@@ -153,7 +151,7 @@ controls {
 }
 
 .welcome hr {
-    border-top: 2px solid #b4b4b4;
+    border-top: 2px solid #3993E5;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
@@ -173,15 +171,22 @@ controls {
 /*-------------Meet the Band------------------*/
 
 .band-bg {
-    background-color: #566573;
-    color: #fff;
+    background-color: #000;
+    color: #3993E5;
+    font-family: 'Special Elite', cursive;
 }
 
 .band-bg-1 {
-    background-color: #566573;
+    background-color: #000;
     color: #000;
 }
 
+/*----------- VIDEO -------------------*/
+
+.video{
+    background-color: #000;
+    color: #3993E5;
+}
 /*----------- CONNECT -------------------*/
 
 .social a {
