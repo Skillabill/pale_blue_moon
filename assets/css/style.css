@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=font-family:Luckiest Guy:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+.container,
+.container-fluid,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: auto;
+    padding: 20px;
+}
+
+/*---------------- NAV ------------------*/
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    !important;
+}
+
+.btn-link {
+    background-color: transparent;
+    border: none;
+}
+
+.pbm{
+    font-family: 'Special Elite', cursive;
+    color: #3993E5;  
+}
+
+/*------------- MAIN PIC ------------------*/
+
+.main-pic {
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.main-pic-bg {
+    background-color: #34495E;
+}
+
+/*-------------Live Page --------------*/
+
+.live-body {
+    background-image: url(../images/monkees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.live-shows {
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    background-color: rgba(28, 40, 51, 0.5);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.table-1,
+.table-2 {
+    width: 60%;
+}
+
+/*--------------Bookings ----------------------*/
+
+.bookings-bg {
+    background-image: url(../images/band.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.booking {
+    margin: auto;
+    width: 35%;
+    background: rgba(28, 40, 51, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border:2px solid #fff;
+    
+}
+/*------------- SONGS -----------------------*/
+
+.songs {
+    background-color: #D5DBDB;
+}
+
+controls {
+    background-color: #27AE60;
+}
+
+/*------------ WEDDINGS ---------------------*/
+
+.wedding-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.wed-rings-img {
+    width: 280px;
+    height: 199px;
+}
+
+
+
+.booking-btn {
+    margin: auto;
+    background-color: #DD340B;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.booking-btn:hover {
+    background-color: #fff;
+    color: #DD340B;
+    transition: .5s;
+    border-color: #DD340B;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75% margin: auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*--------------Xmas Parties -----------------*/
+
+.party {
+    background-color: #E5E8E8;
+}
+
+.xmas-party {
+    margin-top: 50px;
+    font-size: large;
+}
+
+/*-------------Meet the Band------------------*/
+
+.band-bg {
+    background-color: #566573;
+    color: #fff;
+}
+
+.band-bg-1 {
+    background-color: #566573;
+    color: #000;
+}
+
+/*----------- CONNECT -------------------*/
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #517fa8;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+.connect {
+    background-color: #EAEDED;
+}
+
+/*------------ FOOTER ------------------*/
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/*-------------LIVE-----------------*/
+
+.live-img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*-----Media Queries ------*/
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .video {
+        width: 480px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+    .video {
+        width: 380px;
+    }
+}
