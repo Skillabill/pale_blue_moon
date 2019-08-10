@@ -31,7 +31,7 @@ p {
 
 .nav-link {
     font-size: 1.1em;
-    
+
 }
 
 .btn-link {
@@ -158,16 +158,7 @@ controls {
     margin-bottom: 1rem;
 }
 
-/*--------------Xmas Parties -----------------*/
 
-.party {
-    background-color: #E5E8E8;
-}
-
-.xmas-party {
-    margin-top: 50px;
-    font-size: large;
-}
 
 /*-------------Meet the Band------------------*/
 
@@ -184,10 +175,17 @@ controls {
 
 /*----------- VIDEO -------------------*/
 
-.video{
+.video {
     background-color: #000;
     color: #3993E5;
 }
+
+h2,
+h3 {
+    font-family: 'Special Elite', cursive;
+    color: #3993E5;
+}
+
 /*----------- CONNECT -------------------*/
 
 .social a {
