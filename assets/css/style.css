@@ -57,30 +57,7 @@ p {
 
 /*-------------Live Page --------------*/
 
-.live-body {
-    background-image: url(../images/monkees.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-}
-
-.live-shows {
-    color: #fff;
-    text-align: center;
-}
-
-table {
-    background-color: rgba(28, 40, 51, 0.5);
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    color: #fff;
-}
-
-.table-1,
-.table-2 {
-    width: 60%;
-}
 
 /*--------------Photos ----------------------*/
 .table-photos{
@@ -99,50 +76,6 @@ td {
 
 controls {
     background-color: #27AE60;
-}
-
-/*------------ WEDDINGS ---------------------*/
-
-.wedding-pic {
-    height: 100px;
-    width: 100px;
-}
-
-.wed-rings-img {
-    width: 280px;
-    height: 199px;
-}
-
-
-
-.booking-btn {
-    margin: auto;
-    background-color: #DD340B;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.booking-btn:hover {
-    background-color: #fff;
-    color: #DD340B;
-    transition: .5s;
-    border-color: #DD340B;
-}
-
-.padding {
-    padding-bottom: 2rem;
-}
-
-.welcome {
-    width: 75% margin: auto;
-    padding-top: 2rem;
-}
-
-.welcome hr {
-    border-top: 2px solid #3993E5;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
 }
 
 
