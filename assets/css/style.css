@@ -83,7 +83,9 @@ table {
 }
 
 /*--------------Photos ----------------------*/
-
+.table-photos{
+    width: 100%;
+}
 td {
     height: 40px;
     width: 20px;
