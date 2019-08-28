@@ -84,7 +84,7 @@ table {
 
 /*--------------Photos ----------------------*/
 
-td img{
+td {
     height: 40px;
     width: 20px;
 }
