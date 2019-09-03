@@ -165,6 +165,13 @@ hr.light-100 {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
+hr {
+    border-top: 1px solid #3993E5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    background-color: #000;
+}
 
 /*-------------LIVE-----------------*/
 
