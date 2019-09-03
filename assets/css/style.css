@@ -34,6 +34,10 @@ p {
 
 }
 
+.nav-item:hover {
+    color: #3993E5;
+}
+
 .btn-link {
     background-color: transparent;
     border: none;
